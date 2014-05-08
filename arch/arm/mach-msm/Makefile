@@ -10,6 +10,7 @@ obj-$(CONFIG_CPU_FREQ_MSM) += cpufreq.o
 obj-$(CONFIG_DEBUG_FS) += nohlt.o clock-debug.o
 obj-$(CONFIG_KEXEC) += msm_kexec.o
 
+
 obj-$(CONFIG_MSM_PROC_COMM) += proc_comm.o
 ifndef CONFIG_ARCH_MSM8X60
 	obj-$(CONFIG_MSM_PROC_COMM) += clock-pcom.o
@@ -406,3 +407,8 @@ obj-$(CONFIG_FORCE_FAST_CHARGE) += fastchg.o
 obj-$(CONFIG_MSM_CPU_PWRCTL) +=  msm_cpu_pwrctl.o
 
 obj-$(CONFIG_ARCH_RANDOM) += early_random.o
+<<<<<<< HEAD
+=======
+obj-$(CONFIG_FORCE_FAST_CHARGE) += fastchg.o
+obj-$(CONFIG_MSM_SLEEPER) += msm-sleeper.o
+>>>>>>> 9b7e1b2... Added arch/arm/mach-msm/msm-sleeper
