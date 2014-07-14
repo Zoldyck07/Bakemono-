@@ -1,0 +1,1 @@
+cmd_drivers/staging/snappy/built-in.o :=  /home/zoldyck/android/Evolution/toolchains/arm-eabi-linaro-4.6.2/bin/arm-eabi-ld -EL    -r -o drivers/staging/snappy/built-in.o drivers/staging/snappy/csnappy_compress.o drivers/staging/snappy/csnappy_decompress.o 
