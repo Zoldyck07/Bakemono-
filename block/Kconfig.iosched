@@ -133,7 +133,7 @@ choice
 		bool "CFQ" if IOSCHED_CFQ=y
 
         config DEFAULT_BFQ
-                 bool "BFQ" if IOSCHED_BFQ=
+                 bool "BFQ" if IOSCHED_BFQ=y
 
 	config DEFAULT_SIO
 		bool "SIO" if IOSCHED_SIO=y
