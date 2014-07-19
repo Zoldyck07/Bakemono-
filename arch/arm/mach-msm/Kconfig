@@ -2650,11 +2650,6 @@ config MSM_CPU_PWRCTL
 config FORCE_FAST_CHARGE
 	bool "Force AC charge mode at will"
 	default y
-<<<<<<< HEAD
-	help
-		A simple sysfs interface to force adapters that
-		are detected as USB to charge as AC.
-=======
  	help
  		A simple sysfs interface to force adapters that
  		are detected as USB to charge as AC.
@@ -2665,5 +2660,4 @@ config MSM_SLEEPER
  	help
  	  Limit max frequency while screen is off 
 
->>>>>>> 9b7e1b2... Added arch/arm/mach-msm/msm-sleeper
 endif
